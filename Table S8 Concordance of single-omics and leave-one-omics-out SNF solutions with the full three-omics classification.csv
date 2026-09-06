@@ -1,0 +1,15 @@
+Supplementary Table S8. Concordance of single-omics and leave-one-omics-out SNF solutions with the full three-omics classification,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Analysis type,Omics scenario,ARI,NMI,"Agreement, %","Changed patients, n","Subphenotype I, n","Subphenotype II, n","Subphenotype III, n"
+Single omics,Proteomics only,0.447,0.425,74.2,31,42,48,30
+Single omics,Metabolomics only,0.132,0.17,50.8,59,41,34,45
+Single omics,Transcriptomics only,0.081,0.108,50,60,4,52,64
+Leave-one-omics-out,Without proteomics,0.288,0.338,66.7,40,39,35,46
+Leave-one-omics-out,Without metabolomics,0.739,0.691,90,12,31,44,45
+Leave-one-omics-out,Without transcriptomics,0.748,0.67,90.8,11,29,43,48
+Reference,Full three-omics,1,1,100,0,29,44,47
+,,,,,,,,
+Notes: Single-omics analyses used each molecular layer independently. Leave-one-omics-out analyses integrated the remaining two molecular layers. All solutions used k = 3 and were compared with the full three-omics reference partition.,,,,,,,,
+"ARI, NMI, and patient-level agreement were calculated after optimal label matching to the reference partition. Changed patients are those not retaining the reference subphenotype. Subphenotype counts are reported after label matching.",,,,,,,,
+"ARI, adjusted Rand index; NMI, normalized mutual information; SNF, similarity network fusion.",,,,,,,,
